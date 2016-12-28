@@ -4,7 +4,7 @@ import socket
 import threading
 
 bind_ip = "0.0.0.0"  # 绑定ip：这里代表任何ip地址
-bind_port = 8888
+bind_port = 1024
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

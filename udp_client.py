@@ -1,7 +1,7 @@
 import socket
 
 host = 'localhost'
-port = 8888
+port = 1024
 buf_size = 128
 addr = (host, port)
 udp_client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
